@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 500px;
+    height: 700px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Actualscreen{
+    background-color: #181818;
+    flex-grow: 1;
+    max-height: 200px;
+    color: white;
+    text-align: end;
+    vertical-align: sub;
+    font-size: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.interface{
+    flex-grow: 1.5;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    padding: 5px;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    width: 70px;
+    height: 70px;
+}
+
+.numberBtns{
+    flex-grow: 2;
+    flex-wrap: wrap-reverse;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.operatorBtns{
+    flex-grow: 1;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
